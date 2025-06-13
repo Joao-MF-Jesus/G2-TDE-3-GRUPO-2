@@ -1,4 +1,4 @@
-package model;
+package exception;
 
 public class EntradaInvalidaException extends Exception {
     public EntradaInvalidaException(String mensagem) {

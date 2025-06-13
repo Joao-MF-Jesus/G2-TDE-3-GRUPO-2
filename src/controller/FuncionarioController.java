@@ -1,6 +1,8 @@
 package controller;
 
-import model.*;
+import exception.FuncionarioNaoEncontradoException;
+import model.Funcionario;
+
 import java.util.*;
 
 public class FuncionarioController {

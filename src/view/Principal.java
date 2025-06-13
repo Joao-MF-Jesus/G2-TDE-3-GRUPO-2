@@ -1,7 +1,12 @@
 package view;
 
+
 import controller.FuncionarioController;
-import model.*;
+import exception.EntradaInvalidaException;
+import exception.FuncionarioNaoEncontradoException;
+import model.Efetivo;
+import model.Funcionario;
+import model.Temporario;
 import model.Terceirizado;
 
 import java.util.Scanner;
